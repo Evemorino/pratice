@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<title>show</title> 
+	<link rel="stylesheet" href="css/bootstrap.min.css">  
+	<!-- <script src="jquery-3.2.0.min.js"></script> -->
+	<script src="bootstrap.min.js"></script>
+</head>
+<body>
+	
+<div class="container">
+	<h2>实例</h2>
+	<p> .show 类强制一个元素显示:</p>
+	<p class="show">该段落强制显示</p>
+	<p> .hidden 类强制一个元素隐藏 :</p>
+	<p class="hidden">该段落强制隐藏</p>      
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" scr="js/bootstrap.js"></script>
+</head>
+<body>
+<div class="btn-toolbar">
+	<div class="btn-group">
+		<button type="button" class="btn">测试</button>
+		<button type="button" class="btn">测试</button>
+		<button type="button" class="btn">测试</button>
+	</div>
+	<div class="btn-group">
+		<button type="button" class="btn">测试</button>
+		<button type="button" class="btn">测试</button>
+		<button type="button" class="btn">测试</button>
+	</div>
+	<div class="btn-group">
+		<button type="button" class="btn">bootstrap</button>
+		<button type="button" class="btn btn-default drapdown-toggle">
+			<span class="caret"></span>
+			<span class="sr-only"></span>
+		</button>
+		<ul class="dropdown-menu">
+			<li><a href="#">下拉按钮</a></li>
+			<li><a href="#">下拉按钮</a></li>
+			<li><a href="#">下拉按钮</a></li>
+			<li><a href="#">下拉按钮</a></li>
+			<li><a href="#">下拉按钮</a></li>
+			<li><a href="#">下拉按钮</a></li>
+		</ul>
+	</div>
+	
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewpot" content="">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="dropdown">
+	<input type="button" name="" class="btn btn-lg btn-primary dropdown-toggle" value="dropdown" data-toggle="dropdown">
+	<ul class="dropdown-menu">
+		<li class=""><a href="#">测试</a></li>
+		<li class=""><a href="#">测试</a></li>
+		<li class=""><a href="#">测试</a></li>
+		<li class=""><a href="#">测试</a></li>
+		<li class=""><a href="#">测试</a></li>
+		<li class=""><a href="#">测试</a></li>
+	</ul>
+	<span class="caret"></span><br>
+	</div>
+	<div class="dropdown">
+	<button type="button" class="btn btn-lg btn-primary dropdown-toggle" data-toggle="dropdown">
+		dropdown 
+		<span class="caret"></span>
+	</button>
+	<ul class="dropdown-menu">
+		<li class=""><a href="#">测试</a></li>
+		<li class=""><a href="#">测试</a></li>
+		<li class=""><a href="#">测试</a></li>
+		<li class=""><a href="#">测试</a></li>
+		<li class=""><a href="#">测试</a></li>
+		<li class=""><a href="#">测试</a></li>
+	</ul>
+	</div>
+	<div class="dropdown">
+	<button type="button" class="btn dropdown-toggle" id="dropdownMenu1" 
+			data-toggle="dropdown">主题 <span class="caret"> </span>
+	</button>
+	<ul class="dropdown-menu" role="menu" 
+		aria-labelledby="dropdownMenu1">
+		<li role="presentation">
+			<a role="menuitem" tabindex="-1" href="#">Java</a>
+		</li>
+		<li role="presentation">
+			<a role="menuitem" tabindex="-1" href="#">数据挖掘</a>
+		</li>
+		<li role="presentation">
+			<a role="menuitem" tabindex="-1" href="#">数据通信/网络</a>
+		</li>
+		<li role="presentation" class="divider"></li>
+		<li role="presentation">
+			<a role="menuitem" tabindex="-1" href="#">分离的链接</a>
+		</li>
+	</ul>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<title>Bootstrap 实例 - 基本表单</title>
+	<link rel="css/bootstrap.min.css">  
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<form role="form">
+	<div class="form-group">
+		<label for="name">名称</label>
+		<input type="text" class="form-control" id="name" 
+			   placeholder="请输入名称">
+	</div>
+	<div class="form-group">
+		<label for="inputfile">文件输入</label>
+		<input type="file" id="inputfile">
+		<p class="help-block">这里是块级帮助文本的实例。</p>
+	</div>
+	<div class="checkbox">
+		<label>
+			<input type="checkbox"> 请打勾
+		</label>
+	</div>
+	<button type="submit" class="btn btn-default">提交</button>
+</form>
+	
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>class of document</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" scr="js/bootstrap.js"></script>
+</head>
+<body>
+	<div class="form-group has-success has-feedback">
+  <label class="control-label" for="inputSuccess2">Input with success</label>
+  <input type="text" class="form-control" id="inputSuccess2" aria-describedby="inputSuccess2Status">
+  <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+  <span id="inputSuccess2Status" class="sr-only">(success)</span>
+</div>
+<div class="form-group has-warning has-feedback">
+  <label class="control-label" for="inputWarning2">Input with warning</label>
+  <input type="text" class="form-control" id="inputWarning2" aria-describedby="inputWarning2Status">
+  <span class="glyphicon glyphicon-warning-sign form-control-feedback" aria-hidden="true"></span>
+  <span id="inputWarning2Status" class="sr-only">(warning)</span>
+</div>
+<div class="form-group has-error has-feedback">
+  <label class="control-label" for="inputError2">Input with error</label>
+  <input type="text" class="form-control" id="inputError2" aria-describedby="inputError2Status">
+  <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+  <span id="inputError2Status" class="sr-only">(error)</span>
+</div>
+<div class="form-group has-success has-feedback">
+  <label class="control-label" for="inputGroupSuccess1">Input group with success</label>
+  <div class="input-group">
+    <span class="input-group-addon">@</span>
+    <input type="text" class="form-control" id="inputGroupSuccess1" aria-describedby="inputGroupSuccess1Status">
+  </div>
+  <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+  <span id="inputGroupSuccess1Status" class="sr-only">(success)</span>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" scr="js/bootstrap.js"></script>
+</head>
+<body>
+	<div class="page-header">
+		<h1 class="text-center">page-header</h1>
+		<h1 class="text-center">page-header</h1>
+	</div>
+	<div class="jumbotron">
+		<h1 class="text-center">测试没有在container的jumbotron</h1>
+	</div>
+	<div class="container">
+		<div class="jumbotron">
+			<h1 class="text-center">测试在container的jumbotron</h1>
+		</div>
+	</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" scr="js/bootstrap.js"></script>
+</head>
+<body style="margin: 200px;">
+	<nav>
+		<ul class="nav">
+			<li class="active"><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+		</ul>
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+		</ul>
+		<ul class="nav nav-pills">
+			<li class="active"><a href="#">标签</a></li>
+			<li class="bg-warning"><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+		</ul>
+		<ul class="nav nav-stacked">
+			<li class="active"><a href="#">标签</a></li>
+			<li class="disabled"><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+		</ul>
+		<ul class="nav nav-pills nav-justified">
+			<li class="active"><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+		</ul>
+		<ul class="nav nav-tabs nav-justified">
+			<li class="active"><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+		</ul>
+	</nav>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" scr="js/bootstrap.js"></script>
+</head>
+<body style="margin: 200px;">
+	<nav>
+		<ul class="nav">
+			<li class="active"><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+		</ul>
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+		</ul>
+		<ul class="nav nav-pills">
+			<li class="active"><a href="#">标签</a></li>
+			<li class="bg-warning"><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+		</ul>
+		<ul class="nav nav-stacked">
+			<li class="active"><a href="#">标签</a></li>
+			<li class="disabled"><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+		</ul>
+		<ul class="nav nav-pills nav-justified">
+			<li class="active"><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+		</ul>
+		<ul class="nav nav-tabs nav-justified">
+			<li class="active"><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+			<li class=""><a href="#">标签</a></li>
+		</ul>
+	</nav>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default" >
+		<div class="contianer-fluid" style="margin: 0px 50px">
+			<div class="navbar-header" style="">
+				<a href="#" class="navbar-brand">标题</a>
+				<a href="#" class="navbar-brand">标题2</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">测试</a></li>
+				<li class=""><a href="#">测试</a></li>
+				<li class=""><a href="#">测试</a></li>
+				<li class=""><a href="#">测试</a></li>
+				<li class=""><a href="#">测试</a></li>
+			</ul>
+			<p class="navbar-text ">navbar-text</p>
+			<button class="btn navbar-btn ">navbar-btn</button>
+			<input type="button" name="" class="btn navbar-bar " value="navbar-btn">
+			<a href="#" class="btn navbar-btn ">navbar-btn</a>
+			<form class="navbar-form navbar-right" role="form">
+				<div class="form-group">
+					<input type="text" name="" class="form-control">
+				</div>
+			</form>
+		</div>
+	</nav>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" scr="js/bootstrap.js"></script>
+</head>
+<body>
+	ul<ul class="breadcrumb">
+		<li class=""><a href="#">根目录</a></li>
+		<li class=""><a href="#">子目录</a></li>
+		<li class=""><a href="#">孙目录</a></li>
+		<li class="active">现目录</li>
+	</ul>
+	ol<ol class="breadcrumb">
+		<li class=""><a href="#">根目录</a></li>
+		<li class=""><a href="#">子目录</a></li>
+		<li class=""><a href="#">孙目录</a></li>
+		<li class="active"></li>
+	</ol>
+	ul
+	<ul class="pagination pagination-lg">
+		<li class="previous"><a href="#">&laquo;</a></li>
+		<li class=""><a href="#">1</a></li>
+		<li class=""><a href="#">2</a></li>
+		<li class=""><a href="#">3</a></li>
+		<li class=""><a href="#">4</a></li>
+		<li class=""><a href="#">5</a></li>
+		<li class=""><a href="#">6</a></li>
+		<li class=""><a href="#">7</a></li>
+		<li class=""><a href="#">8</a></li>
+		<li class=""><a href="#">9</a></li>
+		<li class=""><a href="#">&raquo;</a></li>
+	</ul>
+	ol
+	<ol class="pagination">
+		<li class="previous"><a href="#">&laquo;</a></li>
+		<li class=""><a href="#">1</a></li>
+		<li class=""><a href="#">2</a></li>
+		<li class=""><a href="#">3</a></li>
+		<li class=""><a href="#">4</a></li>
+		<li class=""><a href="#">5</a></li>
+		<li class=""><a href="#">6</a></li>
+		<li class=""><a href="#">7</a></li>
+		<li class=""><a href="#">8</a></li>
+		<li class=""><a href="#">9</a></li>
+		<li class=""><a href="#">10</a></li>
+		<li class=""><a href="#">&raquo;</a></li>
+	</ol>
+	<br>
+	<ul class="pager">
+		<li class="previous"><a href="#">previous</a></li>
+		<li class=""><a href="#">page1</a></li>
+		<li class=""><a href="#">page2</a></li>
+		<li class=""><a href="#">page3</a></li>
+		<li class="next"><a href="#">next<span class="badge">1</span></a></li>
+	</ul>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+	<script type="text/javascript" scr="js/bootstrap.js"></script>
+</head>
+<body>
+	<h1 class=""><blockquote>bootstrap</blockquote></h1>
+	<h2 class=""><blockquote>bootstrap</blockquote></h2>
+	<h3 class=""><blockquote>bootstrap</blockquote></h3>
+	<h4 class=""><blockquote>bootstrap</blockquote></h4>
+	<h5 class=""><blockquote>bootstrap</blockquote></h5>
+	<h6 class=""><blockquote>bootstrap</blockquote></h6>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" scr="js/bootstrap.js"></script>
+</head>
+<body>
+	原始<a href="#" class="btn "></a>
+	<input type="button" name="" class="btn">
+	<button class="btn"></button><br>
+	default<a href="#" class="btn btn-default"></a>
+	<input type="button" name="" class="btn btn-default">
+	<button class="btn btn-default"></button><br>
+	primary<a href="#" class="btn btn-primary"></a>
+	<input type="button" name="" class="btn btn-primary">
+	<button class="btn btn-primary"></button><br>
+	info<a href="#" class="btn btn-info"></a>
+	<input type="button" name="" class="btn btn-info">
+	<button class="btn btn-info"></button><br>
+	warning<a href="#" class="btn btn-warning"></a>
+	<input type="button" name="" class="btn btn-warning">
+	<button class="btn btn-warning"></button><br>
+	danger<a href="#" class="btn btn-danger"></a>
+	<input type="button" name="" class="btn btn-danger">
+	<button class="btn btn-danger"></button><br>
+	success<a href="#" class="btn btn-success"></a>
+	<input type="button" name="" class="btn btn-success">
+	<button class="btn btn-success"></button><br>
+	link<a href="#" class="btn btn-link"></a>
+	<input type="button" name="" class="btn btn-link">
+	<button class="btn btn-link"></button><br>
+	大按钮<a href="#" class="btn btn-lg"></a>
+	<input type="button" name="" class="btn btn-lg col-lg-3">
+	<button class="btn btn-lg"></button><br>
+	小按钮<a href="#" class="btn btn-sm"></a>
+	<input type="button" name="" class="btn btn-sm">
+	<button class="btn btn-sm"></button><br>
+	超小按钮<a href="#" class="btn btn-xs"></a>
+	<input type="button" name="" class="btn btn-xs">
+	<button class="btn btn-xs"></button><br>
+	块级按钮<a href="#" class="btn btn-block"></a>
+	<input type="button" name="" class="btn btn-block">
+	<button class="btn btn-block"></button>
+</body>
+</html>
