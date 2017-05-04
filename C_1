@@ -1,0 +1,88 @@
+#include<stdio.h>
+#include<inttypes.h>
+#include<limits.h>
+#include<float.h>
+int main(){
+	
+//
+//	short int c=153216;
+//	short d=1531;
+//	printf("%hd %hd %ho %ho\n",c,d,d,c);//short类型无论加不加，看来都是hd了 
+//	long e=156414;
+//	printf("%l\n",e);
+//	char f='adsS';//只识别最后的字母吗？ 
+//	printf("%c\n",f);
+	//	printf("\a");		//\a是个好东西，可以警告 
+//	printf("\"\"“”\n");
+//	int x=6468165;
+//	printf("%x \x534165a\n",x);
+//	char z='~';
+//	printf("%d\n",z);  //char是个好东西 
+//	char test=0;
+//	for(; test<127; test++){
+//		printf("%c\n",test);
+//	}
+/*	int8_t test=127;	
+	printf("%x\n",test);		//结果是ffffff80 元芳，你怎么看 
+	float test1=32.1e-5;
+	printf("%f %e\n",test1,test1);
+	char test2=1;
+	printf("%c\n",test2);
+	int test3=10;
+	//test3=test3*3.152;
+	printf("%d\n",test3*1.2);
+	float test4 = 1.2;
+	printf("%d\n",test4*2);
+	float about = 32000.0;
+	double det =32000.0;
+	printf("%d %d\n",sizeof(about),sizeof(det));
+//	scanf("%f",&about);
+//	printf("%f",about);
+//	printf("%d\n",sizeof(char));
+//	printf("\b$____\b\b\b\b\n");//所以说\b到底有啥用 
+//	printf("please input your salary:");
+//	long double salary;		//为什么double类型不能用%f 
+//	scanf("%lf",&salary);
+//	printf("%lf",salary);
+//	char str1[100];
+//	scanf("%s",str1);
+//	printf("%s",str1);
+//	printf("%d\n",INT_MAX);*/
+/*	printf("%d\n",CHAR_MAX);
+	printf("%d\n",SHRT_MAX);
+	printf("%d\n",LONG_MAX);	//long和int的最大值怎么相同了
+	printf("%d\n",UINT_MAX);
+	printf("%d\n",UCHAR_MAX);
+	printf("%d\n",USHRT_MAX);
+	printf("%d\n",ULONG_MAX);	
+	printf("%d %d %d\n",sizeof(long),sizeof(long long int),sizeof(short));
+	printf("%d %d %d %d\n",sizeof(float),sizeof(double),sizeof(long double));*/
+//	long long int salary;
+//	scanf("%d",&salary);
+//	printf("%d",salary);
+	//尾数位数 
+//	printf("%d\n",FLT_MANT_DIG);	//24
+//	printf("%d\n",DBL_MANT_DIG);	//53
+//	printf("%d\n",LDBL_MANT_DIG);	//64
+	//有效位数 
+//	printf("%d\n",FLT_DIG);		//6
+//	printf("%d\n",DBL_DIG);		//15
+//	printf("%d\n",LDBL_DIG);	//18
+//	printf("%f\n",FLT_MIN);		//0.0000000
+//	printf("%lf\n",FLT_MAX);		//尾数太多，不写了
+//	printf("%lf\n",DBL_MIN);		//
+//	printf("%lf\n",DBL_MAX);		//
+//	printf("%lf\n",LDBL_MIN);
+//	printf("%lf\n",LDBL_MAX);
+
+//	c中的数据类型转换 
+
+//	int test=115341685;
+//	printf("%%\n");
+//	printf("*%-20d*\n",test);
+//	printf("*%20d*\n",test);
+//	printf("*%+d*\n",-test);
+//	printf("*%-d\n*",test);
+
+	return 0;
+} 
