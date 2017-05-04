@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="basic.css">
+	<style type="text/css">
+		body>div:nth-child(1){
+			/*background-color: #58a;*/
+			background-image: 
+			repeating-linear-gradient(90deg,#58a 0px,#58a 5px,transparent 5px,transparent 10px),
+			repeating-linear-gradient(0deg,#58a 0px,#58a 5px,transparent 5px,transparent 10px);
+		}
+		div:nth-child(2){
+			background-image: radial-gradient(tan 30%,red 30%);
+			background-size: 30px 30px;
+		}
+		div:nth-child(3){
+			border: 1em solid transparent;
+			background-image: 
+			linear-gradient(90deg,blue 0%,red 100%),
+			repeating-linear-gradient(-45deg,white 0px,white 5px, yellow 5px,yellow 10px);
+			background-clip: padding-box,border-box;
+			background-origin: border-box;
+		}
+		div:nth-child(4){
+			background-color: red;
+			border-radius: 50%;
+		}
+		div:nth-child(5){
+			background-color: red;
+			border-radius: 10000% 0 0 10000%;
+		}
+		div:nth-child(6){
+			width: 500px;
+			height: 500px;
+			background-color: red;
+			border-radius: 1000px 1000px 0px 0px; 
+		}
+		div:nth-child(7){
+			background-color: blue;
+			/*transform: rotate(-45deg);*/
+		}
+		div:nth-child(7)>div{
+			background-color: red;
+			width: 300px;
+			height: 200px;
+			/*transform: rotate(45deg);*/
+		}
+		div:nth-child(8){
+			border: 1em solid transparent;
+			background-image: linear-gradient(90deg,white,white),linear-gradient(0deg,red,blue);
+			background-clip: padding-box,border-box;
+			background-origin: border-box;
+		}
+		div:nth-child(9){
+			transform-style: preserve-3d;
+			perspective: 100px;
+			position: relative;
+		}
+		div:nth-child(9)::after{
+			content: " ";
+			position: absolute;
+			background-color: red;
+			width: 1000px;
+			height: 500px;
+			transform: rotateX(5deg);
+			transform-origin: 0% 0%;
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div class="box7">
+		<div class="box7_child"></div>
+	</div>
+	<div></div>
+	<div></div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="basic.css">
+	<style type="text/css">
+	div{
+		width: 50em;
+		height: 30em;
+		margin: 10px 0px;
+	}
+		div:nth-child(1){
+			width: 80em;
+			height: 70em;
+			background-color: red;
+			font-size: 0.1em;
+		}
+		div:nth-child(2){
+			background-image: repeating-linear-gradient(0deg,rgba(200,0,0,.5) 0%,rgba(200,0,0,.5) 10%,transparent 10%,transparent 20%),repeating-linear-gradient(90deg,rgba(200,0,0,.5) 0%,rgba(200,0,0,.5) 10%,transparent 10%,transparent 20%);
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+	<div></div>
+</body>
+</html>
+
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="basic.css">
+	<style type="text/css">
+	div{
+		width: 1000px;
+		height: 500px;
+		overflow: hidden;
+	}
+		div:nth-child(1){
+			/*border: 5px solid red;*/
+			box-shadow: 0 0 0 5px blue;
+		}
+		div:nth-child(3){
+			background-color: tan;
+			border: 2px dashed white;
+			outline: 5px solid pink;
+		}
+/*		div:last-child{
+			background-color: pink;
+			border: 2px dashed white;
+			outline: 5px solid pink;
+		}*/
+		div:nth-child(8){
+			background-image: linear-gradient(90deg,rgba(0,0,0,1),rgba(255,255,255,1));
+			background-size: 100px 100px;
+			/*background-position: top 100px left 100px;*/
+			background-position: calc(0% + 50px) calc(100% - 50px);
+			background-repeat: no-repeat;
+		}
+		div:nth-child(11){
+			background-color: pink;
+			box-shadow: 0 0 0 10px red;
+			outline: 5px solid blue;
+		}
+		div:nth-child(14){
+			background-image: repeating-linear-gradient(60deg,rgba(0,0,0,1) 15px,rgba(255,255,255,1) 30px);
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+	<br>
+	<div class="box2"></div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div></div>
+	<br>
+	<br>
+	<div></div>
+	<br>
+	<br>
+	<div></div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css练习</title>
+	<link rel="stylesheet" type="text/css" href="第一个CSS.css">
+	<style type="text/css">
+	span{
+		color:red
+		}
+	</style>
+</head>
+<body>
+<span>不管怎么说，你让我选上没有，但是我都输了</span><br/>
+<span>我就不明白了</span><br/>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>frame</title>
+</head>
+<body>
+<iframe src="盒子模型2.html" width="500" height="500">
+</iframe>
+<iframe src="盒子模型.html" width="700" height="1000"></iframe>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>frameset</title>
+</head>
+<frameset>
+<frame src="盒子模型.html"></frame>
+<frame src="盒子模型.html"></frame>>
+</frameset>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#div1{
+		    color: #ccc;
+		    font-size:12px;
+		    background: #123;
+		}
+	</style>
+	<script type="text/javascript">
+		function function_name(argument) {
+			
+			// body...
+		}
+	</script>
+</head>
+<body>
+<div id="div1">
+hello,world!
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js的实验</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+          var a=12;
+          alert("a")
+	</script>
+</head>
+<body>
+	 <ul>
+	 	<li>1</li>
+	 	<li>2</li>
+	 	<li>3</li>
+	 	<li>4</li>
+	 </ul>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pratice</title>
+	<meta charset="utf-8">
+    <meta name="frameset">
+    <style type="text/css">
+    	p{
+    		color: yellow
+    	}
+    </style>
+</head>
+<body>
+	<p id="div">
+	我很苦恼</p>
+	<p>
+		现在听着近月少女的歌感觉舒坦了不少<br>
+		我现在超想和吴琼聊天，和别的人聊天，感觉会很不错
+	</p>
+	
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pre的格式</title>
+</head>
+<body>
+<pre>
+	                                            素晴日
+	                             怎么办                                 我不明白
+	                                                我去                
+	                                                真神奇
+</pre>
+<a href=""></a>
+<link rel="stylesheet" type="text/css" href="">
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+heheheheheheheheh
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>背景图片</title>
+	<style type="text/css">
+		*{
+			background:url("012.jpg");
+			height: 100%;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+<div id="first">
+	测试
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>背景图片测试</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{			
+			background: url("001.jpg") no-repeat;
+			width: 10%;
+			height: 10%;
+		}
+	</style>
+</head>
+<body>
+<div id="first"></div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>表单</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<form>
+	<input type="submit" name="程永毅" value="测试卷"/><br>
+	<input type="password" name="程永毅">
+	<input type="" name=""/>
+	<select multiple="multiple">
+		<option>1</option>
+		<option selected="selected">2</option>
+		<option>3</option>
+		<option>4</option>
+		<option>5</option>
+		<option>6</option>
+		<option>7</option>
+		<option>8</option>
+		<option>9</option>
+	</select>
+	<input type="radio" id="1"/>
+	<input type="radio" id="1"/>
+	<input type="checkbox" name="woqu"/>
+	<label id="woqu"></label>
+	<input type="" name="woqu" id="woqu">
+	<input type="submit" name="">
+</form>
+</body>
+</html>
+
+<html>
+<head>
+		<title>测试</title>
+</head>
+<body>
+	 <table border="5" height="100" width="100">
+		 <tr>
+		 	<td></td>
+		 	<td></td>
+		 	<td></td>
+		 </tr>
+		 <tr>
+		 	<td></td>
+		 	<td></td>
+		 	<td></td>
+		 </tr>
+	 </table>
+	 <table border="10" background:yellow>
+	 	<td>
+	 		<tr> </tr>
+	 	</td>
+	 </table>
+	 <table border="1" width="100" height="100">
+	 	<tr>
+		 	<td>
+	 		<table border="1" width="30">
+		 		<tr>
+	 			<td>1</td>
+	 			<td>2</td>
+	 			</tr>
+	 		</table>
+	 		</td>
+	 	</tr>
+	 </table>
+	 <table>
+	 <tr>
+	 	<td>a1</td><td>a2</td><td>a3</td>
+	 </tr>
+	 <tr>
+	 	<td>b1</td><td>b2</td><td>b3</td>
+	 </tr>
+	 <tr>
+	 	<td>c1</td><td>c2</td><td>c3</td>
+	 </tr>
+	 </table>
+	 <table border="1">
+	 	<td>
+	 		<tr>
+	 			<td>
+	 				<tr></tr>
+	 			</td>
+	 		</tr>
+	 	</td>>
+	 </table>
+</body>
+</html>
+<!----><body></body>
+
+span
+{
+	color: blue;
+	font-size:18px;
+	word-wrap:red;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>定位</title>
+	<style type="text/css">
+		#first{
+			width: 700px;
+			height: 700px;
+			border: 1px solid;
+			position: relative;
+		}
+		#second{
+			width: 100px;
+			height: 100px;
+			border: 1px solid;
+			position: absolute;
+			right: 70px;
+			top: 200px;
+		}
+	</style>
+</head>
+<body>
+<div id="first">
+	<div id="second">
+		真是日了狗了
+	</div>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	这是怎么回事，
+	这也可显示吗
+</head>
+<body>
+	<title>测试</title>
+</body>
+</html>
+
+<html>
+<head>
+	<title>盒子模型</title>
+	<style type="text/css">
+		#parent{
+			border:3px solid red
+			width:500px
+			height:500px
+		}
+		#child{
+			border: 10px
+			width:200px
+			height:200px
+		}
+		#a{
+			height: 50
+		}
+	</style>
+</head>
+<body>
+<div id="parent">
+	<div id="child">
+		hello,world
+	</div>
+</div>
+<marquee height="1000" direction="up" onmouseover="this.stop()">
+<table border="1" width="500" height="100">
+	<tr>
+		<th>1</th>
+		<th>2</th>
+		<th>3</th>
+		<th>4</th>
+	</tr>
+	<tr>
+		<th>4</th>
+		<th>5</th>
+		<th>6</th>
+	</tr>
+	<tr>
+	    <table border="1" width="500">
+		<th>7</th>
+		<th>8</th>
+		<th>9</th>
+		</table>
+	</tr>
+</table>
+</marquee>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>盒子模型</title>
+	<style type="text/css">
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+		#aunt{
+			 top: 0px;
+			 bottom: 0px;
+			 left: 0px;
+			 right: 0px;
+			 border: 1px solid red;
+		}
+		#parent{
+			border: 1px solid red;
+			height: 200px;
+			width: 500px;
+			position: relative;
+		}
+		#child{
+			border: 1px solid blue;
+			height: 500px;
+			width: 150px;
+			position:relative; 
+			top: 200px;
+
+		}
+		#grandpa li{
+			color: brown !important;
+			border: 1px solid black;
+			position: relative;
+		}
+	</style>
+</head>
+<body id="aunt">
+<div id="parent">
+	<div id="child">
+		hello,world!
+	</div>
+	<div id="grandpa">
+	<ul >
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+	</ul>
+	</div>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>盒子模型3</title>
+	<style type="text/css">
+		body{
+			border: 10px solid red;
+			color:blue;
+		}
+	</style>
+</head>
+<body>
+<span>
+	恨你啊
+</span>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>类型选择符</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			color: red;
+		}
+		a:hover{
+			font-size: 50px;
+		}
+		p{
+			border: 1px solid blue;
+		}
+	</style>
+</head>
+<body>
+<p>
+	我<span>身负着一个樱小路家</span>和大藏家的荣誉，这一点是我曾经深信不疑的，首先我的母亲<a>樱小路露娜</a>是一个非常成功的女性，事业有成，容貌美丽。是世人所谓的成功模范，而且我的母亲是在很小的时候就完成了这些事，而且非常坚决抛弃了这些荣耀，转身投入了服装行业，并且展现了巨大的天赋
+</p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>梦导航</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet">
+	<link rel="stylesheet" type="text/css" href="stylesheet">
+</head>
+<body><ol>
+	<li>comic</li><ul>
+	<li>animation</li>
+	<li>hehhehe</li>
+    woqunimei
+	<li>comic</li>
+	<li>animation</li>
+</ol>
+<table><pre>
+	#include(stdio.h)
+	int main()
+	{
+	    printf("");
+	    return 0
+	}
+</pre>
+<dl>
+	<dd>我就不明白了</dd>
+	<dt>为啥呢</dt>
+	<dd>你在纠结什么呢</dd>
+</dl>
+</table>
+</body>
+</html
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>列表</title>
+	<style type="text/css,color=#000000,front size">
+		p{
+			/*woqu*/
+		}
+	</style>
+</head>
+<body>
+<ul>
+	<li>A
+		<ol>
+			<li>1</li>
+			<a href=""></a>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>5</li>
+			<li>6</li>
+			<li>7</li>
+			<li>8</li>
+			<li>9</li>
+		</ol>
+	</li>
+	<li>B
+		<ol>
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>5</li>
+			<li>6</li>
+			<li>7</li>
+			<li>8</li>
+			<li>9</li>
+		</ol>
+	</li>
+</ul>
+<dl>
+	<dd>
+		woqy
+	</dd>
+	<dt>
+		woqu
+	</dt>
+</dl>
+<frameset>
+	<frame>
+	<marquee srollamout="7">
+		<span style="color: red">
+			<div>
+				<span>a1</span>
+				<span>a2</span>
+				<span>a3</span>
+			</div>
+			<div>
+				<span>b1</span>
+				<span>b2</span>
+				<span>b3</span>
+			</div>
+			<div>
+				<span>c1</span>
+				<span>c2</span>
+				<span>c3</span>
+			</div>
+		</span>
+	</marquee>	
+	</frame>
+</frameset>
+<table>
+<th> wo</th>
+	<td>
+		<tr>
+			<td>a1</td>
+		</tr>
+		<tr>23</tr>
+	</td>
+</table>
+<h1 style="color:">hello,world
+</h1>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>权值的测试</title>
+	<style type="text/css">
+		p span{
+			color: red!important;
+		}
+		#first{
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+<p>
+	<span id="first">hello,world</span>
+</p>
+	<span>hello,computer</span>
+	<br>
+	<span>first</span>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>通用选择器</title>
+</head>
+<body>
+<h1>
+	hehehehhehehehhehehehehehhehehehe
+</h1>
+<span>
+	<div></div>
+</span>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>图片测试</title>
+</head>
+<body>
+<a href="#">
+<img src="http://ww4.sinaimg.cn/large/a15b4afegw1f6ea1alb0qj206e028dg6" alt="不同文件夹的图片怎么弄" title="萌妹子" width="2000">
+</a>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>文字间隔</title>
+	<style type="text/css">
+		.a1{
+			word-spacing: 20px;
+		}
+		.a2{
+			letter-spacing: 20px;
+		}
+	</style>
+</head>
+<body>
+<h1 class="a1">fuck you</h1>
+<h1 class="a2">fuck me</h1>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>选择器</title>
+	<link rel="stylesheet" type="text/css" href=""/>
+	<style type="text/css">
+	.hehe{
+		color: red;
+		line-height: 1.5em;
+	}
+	p span{
+		 color: white;
+		 background: black;
+	}
+	p h1{
+		background: blue;
+	}
+	</style>
+</head>
+<body>
+
+	 <p class="hehe">
+	 自己的思想自己把握
+	 </p>
+	 <p class="hehe">
+	 人<span>生真</span>难混
+	 </p>
+	 <p class="hehe">
+	 	自己的<h1>思想到底是</h1>哪一点出错了
+	 </p>
+	 <span class="hehe">我以后还是在寝室少说话吧，省的王雨惹我不痛快,<br>我们都是一类人，彼此彼此，看来谁都不缺谁</span>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		颜色测试
+	</title>
+	<style type="text/css">
+		p{
+			color:#7a8a9a;
+		}
+	</style>
+</head>
+<body>
+<p>
+	hehehehehehe
+</p>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>作业</title>
+</head>
+<body>
+	 <table border="1" width="1000">
+	 	<tr>
+	 		<td colspan="5">导航图片</td>
+	 	</tr>
+	 	<tr>
+	 		<td>首页</td>
+	 		<td>学习天地</td>
+	 		<td>娱乐天地</td>
+	 		<td>休闲天地</td>
+	 		<td>退出系统</td>
+	 	</tr>
+	 	<tr>
+	 	<td colspan="5">
+		 	<table border="1">
+		 		<tr>
+		 			<td>
+		 				<table border="1" width="200" >
+		 					<tr>
+		 						<td>
+		 							<table>
+		 								<tr>
+		 									<td>通知信息</td>
+		 								</tr>
+		 								<tr>
+		 									<td></td>
+		 								</tr>
+		 							</table>
+		 						</td>
+		 					</tr>
+		 					<tr>
+		 						<td>
+		 							<table>
+		 								<tr>
+		 									<td>超级链接</td>
+		 								</tr>
+		 								<tr>
+		 									<td></td>
+		 								</tr>
+		 							</table>
+		 						</td>
+		 					</tr>
+		 					<tr>
+		 						<td>
+		 							<table>
+		 								<tr>
+		 									<td>常用链接</td>
+		 								</tr>
+		 								<tr>
+		 									<td></td>
+		 								</tr>
+		 							</table>
+		 						</td>
+		 					</tr>
+		 					<tr>
+		 						<td></td>
+		 					</tr>
+		 				</table>
+		 			</td>
+		 			<td>
+		 				<table border="1" width="400">
+		 					<tr>
+		 						<td>
+		 							<table>
+		 								<tr>
+		 									<td>学习效果</td>
+		 								</tr>
+		 								<tr>
+		 									<td></td>
+		 								</tr>
+		 							</table>
+		 						</td>
+		 					</tr>
+		 					<tr>
+		 						<td>
+		 							<table>
+		 								<tr>
+		 									<td>重点答疑</td>
+		 								</tr>
+		 								<tr>
+		 									<td></td>
+		 								</tr>
+		 							</table>
+		 						</td>
+		 					</tr>
+		 				</table>
+		 			</td>
+		 			<td>
+		 				<table border="1" width="400">
+		 					<tr>
+		 						<td>
+		 							<table>
+		 								<tr>
+		 									<td>电影答疑</td>
+		 								</tr>
+		 								<tr>
+		 									<td></td>
+		 								</tr>
+		 							</table>
+		 						</td>
+		 					</tr>
+		 					<tr>
+			 					<td>
+			 						<table>
+			 							<tr>
+			 								<td>音乐推荐</td>
+			 							</tr>
+			 							<tr>
+			 								<td></td>
+			 							</tr>
+			 						</table>
+			 					</td>
+		 					</tr>
+		 				</table>
+		 			</td>
+		 		</tr>
+	 		</table>
+	 	</td>
+	 	</tr>
+	 	<tr>
+	 		<td colspan="5">Copyright</td>
+	 	</tr>
+	 </table>
+</body>
+</html>
