@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+	"use strict"
+		var a=123;
+		function f() {
+			console.log(a);
+			var a=1;
+			console.log(a);
+		}
+		f();
+		var b=123;
+		function g() {
+			alert(b);
+			var b=1;
+			alert(b);
+		}
+		g();
+		function sum(num1,num2) {
+			return num1+num2;
+		}
+		var add=sum;
+		function fun (a,s,d,f,q,w,e,r,t,y,u) {
+			return console.log(arguments)
+		}
+		fun(1,2,3,4,5,67,8,9,1,'asfhil','agfhuk')
+		function name() {
+			return 1;
+		}
+		function name1() {
+			return arguments;
+		}
+		console.log(name1(name()));
+		var a=0;
+		function cycle(i) {
+			if(i!=1){
+				a+=i;
+				cycle(i-1);
+			}else{
+				return	a;
+			}
+		}
+		console.log(cycle(2));
+		(function () {
+			return console.log(arguments);
+		})(1,2,3,4,"asdn","bsakf")
+		function name() {
+		 return arguments;
+		 }
+		 var b=name();
+		 console.log(b);
+		  name();
+		 (function (argument) {
+		 	return console.log(arguments);
+		 })();
+		 var a=function (argument) {
+		 	return arguments;
+		 }();
+		 console.log(a);
+		 var a=function () {
+		 	return arguments;
+		 }
+		 console.log(a());
+		 function name () {
+		 	return arguments;
+		 }
+		 console.log(name);
+		 a=1;
+		 console.log(a);
+ 		for (var i = 0; i <= 5; i++) {
+		 	 i=(function () {
+		 		return console.log(i);
+		 	})(i);
+		 	 console.log(i);
+		 	(function () {
+		 		return console.log(i)
+		 	})(i);
+		 }
+		 window.onload=function (argument) {
+		 	console.log(this);
+		 }
+		 function name(argument) {
+		 	return function (argument) {
+		 		return this;
+		 	}
+		 }
+		 name();
+		 var sum = new Function('a','b','c=a+b','return c');
+		 console.log(sum(1,2,3));
+		 function person(name,age) {
+		 	this.name=name;
+		 	this.age=age;
+		 	this.say=function (argument) {
+		 		return this.name+this.age;
+		 	}
+		 	return
+		 }
+		 var some_obj={
+		 	name:"jeff",
+		 	say:function (who) {
+		 		return "hi\b"+who+"\bI am\b"+this.name;
+		 	}
+		 }
+		 console.log(some_obj.say("dude"));
+		 console.log(some_obj.say.call(window,"dude"));
+		 console.log(parseInt.toString());
+		 console.log(this);
+		 function sta() {
+		 	alert(this);
+		 }
+		 sta();
+		 var o={
+		 	pop:37,
+		 	f:function () {
+		 		return this.pop;
+		 	}
+		 }
+		 console.log(o.f());
+		 function person(name,age) {
+		 	this.name=name;
+		 	this.age=age;
+		}
+		 var person1= new person("jeff",12);
+		 var person2= new person("jack",15);
+		 person.prototype.sex="male";
+		 person1.prototype={num1:12,num2:13};
+		 console.log(person1.name);
+		 console.log(person2.hasOwnProperty("sex"));
+		 for( var i=0 ; i<3 ; i++){
+		 	console.log(i);
+		}
+		console.log(i);
+		var arr = [], i;
+		function num() {
+			for ( i = 0; i < 3; i++) {
+				arr[i] = function () {
+					return i;
+				};
+			}
+		}
+		num();
+		var result = arr[4]();
+		console.log(result);
+		console.log(window.__proto__);
+		Array.prototype.inArray=function (target) {
+			var arr=[];
+			for (var i = 0,j=0; i < this.length; i++) {
+				if(this[i]===target){
+					arr[j]=this[i];
+					j++;
+				}
+			}
+			return arr[];
+		}
+
+		function Dog() {
+			this.tail=true;
+			this.say=function () {
+				return "wolf";
+			}
+		}
+		var erha = new Dog();
+		var aodi = new Dog();
+		console.log(erha.say());
+		erha.prototype={
+			paws:4,
+			hair:true,
+		}
+		console.log(aodi.paws);
+		
+	</script>
+</head>
+<body>
+
+</body>
+</html>
