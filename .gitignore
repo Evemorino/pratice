@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		div{
+			width: 100%;
+			height: 500px;
+		}
+	</style>
+</head>
+<body id="body">
+	<p>测试测试测试测试测试测试测试车迟测试测试测试测试测试</p>
+	<p>测试测试测试测试测试测试测试车迟测试测试测试测试测试</p>
+	<p>测试测试测试测试测试测试测试车迟测试测试测试测试测试</p>
+	<p>测试测试测试测试测试测试测试车迟测试测试测试测试测试</p>
+	<p>测试测试测试测试测试测试测试车迟测试测试测试测试测试</p>
+	<p>测试测试测试测试测试测试测试车迟测试测试测试测试测试</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div href="#div3" id="div1">
+	<p>测试测试测试测试测试测试测试车迟测试测试测试测试测试</p>
+	测试测试测试测试测试测试测试车迟测试测试测试测试测试
+	</div>
+	<div href="#div4" id="div2">测试测试测试测试测试测试测试车迟测试测试测试测试测试</div>
+	<div href="#div5" id="div3">测试测试测试测试测试测试测试车迟测试测试测试测试测试</div>
+	<div href="#div6" id="div4">测试测试测试测试测试测试测试车迟测试测试测试测试测试</div>
+	<div href="#div1" id="div5">测试测试测试测试测试测试测试车迟测试测试测试测试测试</div>
+	<div href="#div2" id="div6">测试测试测试测试测试测试测试车迟测试测试测试测试测试</div>
+	<script type="text/javascript">
+		var ps=document.getElementsByTagName('p');
+		for (var i = 0; i < ps.length; i++) {
+			ps[i].setAttribute("abs","abs"+i);
+				console.log(ps[i].getAttribute("abs"));
+		}
+		console.log(i);
+		var divs=document.getElementsByTagName('div');
+		//divs.onclick=function () {
+		//}
+		var body=document.getElementsByTagName('body');
+		window.onload=function(){document.write(body)};
+		//为什么在childNodes是undefined？	
+		var body1=document.getElementsByTagName('body');
+		//var body_child=body.childNotes;
+		console.log(body1);
+		var div1=document.getElementById('div1');
+		console.log(div1.childNodes);
+		document.write(div1);
+	</script>
+</body>
+<body></body>
+<script type="text/javascript">
+		// var body2=document.getElementById("body");
+		// console.log(body2);
+</script>
+</html>
