@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			box{
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box box1"></div>
+		<div class="box box2"></div>
+		<div class="box box3"></div>
+		<div class="box box4"></div>
+		<div class="box box5"></div>
+		<div class="box box6"></div>
+	</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.cb-slideshow li:nth-child(1) span { background-image: url(https://ws3.sinaimg.cn/large/005ODKsIgw1fajzk30n31.jpg);}
+		.cb-slideshow li:nth-child(2) span { background-image: url(https://ws2.sinaimg.cn/large/005ODKsIgw1faoiixnltaj31hc101tfl.jpg);}
+		.cb-slideshow li:nth-child(3) span { background-image: url(https://ws2.sinaimg.cn/large/005ODKsIgw1fakyoc0eloj31hc0u0dk1.jpg);}
+		.cb-slideshow li:nth-child(4) span { background-image: url(https://ws3.sinaimg.cn/large/005ODKsIgw1fajzohdiyuj31hc0yo79e.jpg);}
+		.cb-slideshow li:nth-child(5) span { background-image: url(https://ws1.sinaimg.cn/large/005ODKsIgw1fam2hjspydj31hc0u042m.jpg);}
+		.cb-slideshow li:nth-child(6) span { background-image: url(https://ws1.sinaimg.cn/large/005ODKsIgw1fajzg2bemej31hc0srwjx.jpg);}
+		
+	</style>
+</head>
+<body>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>border</title>
+	<style type="text/css">
+		div{
+			width: 0px;
+			height: 0px;
+			border-width: 50px 100px 70px 100px;
+			border-color: red green blue yellow;
+			border-style: solid;
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		div{
+			border: 2px solid;
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<div>我的颜色是</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>dotted</title>
+	<style type="text/css">
+		.dotted{
+			width: 100px;
+			height: 100px;
+			border: 1px dotted red;
+			overflow: hidden;
+		}
+	</style>
+</head>
+<body>
+	<div class="dotted"></div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>十字</title>
+	<style type="text/css">
+		div{
+			width: 100px;
+			height: 100px;
+			margin: 0px auto;
+			border: 1px solid #ccc;
+		}
+		div:before{
+			border-top: 10px solid #ccc;
+			content: " ";
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		div{
+			width: 500px;
+			height: 500px;
+			margin: 50px auto;
+			animation: shadow 2s infinite;
+		}
+		@keyframes shadow {
+			0%{ box-shadow: 0px 0px 10px 10px rgba(192,192,192,0.7) }
+			50%{ box-shadow: 0px 0px 30px 30px rgba(122,122,122,0.3) }
+			100%{ box-shadow: 0px 0px 10px 10px rgba(192,192,192,0.7) }
+		}
+		h3{
+			text-align: center;
+			animation: text 2s infinite;
+		}
+		@keyframes{
+			0%{ text-shadow: 2px 5px 10px red }
+			50%{ text-shadow: 2px 5px 10px blue }
+			100%{ text-shadow: 2px 5px 10px red }
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+	<h3>测试一下到底支持不支持text-shadow动画</h3>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>box-shadow</title>
+	<style type="text/css">
+		div{
+			width: 300px;
+			height: 300px;
+			border-radius: 50%;
+			position: relative;
+			margin: 50px auto;
+			background-color: transparent;
+			box-shadow: 100px 100px 0 200px rgba(192,192,192,0.7) inset;
+			transform: translate(500px,200px);
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>
+
+\
+<!DOCTYPE html>
+<html>
+<head>
+	<title>circle</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		div{
+			width: 400px;
+			height: 400px;
+			margin: 50px auto;
+			border-style: solid;
+			border-radius: 50%;
+			background-color: rgba(208,208,208,1);
+			box-shadow: 
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		div{
+			width: 500px;
+			height: 500px;
+			border: 1px solid red;
+		}
+		.div{
+			width: 300px;
+			height: 300px;
+			border: 1px solid blue;
+			margin: auto;
+		}
+	</style>
+	<script type="text/javascript">
+		var a="1",b;
+		b=a+;
+		alert(b+"+"+a);
+		var c= NaN;
+		var d=function (argument) {
+			// body...
+		}
+		//alert(c+d);
+	</script>
+</head>
+<body>
+	<div>
+		<div class="div"></div>
+	</div>
+</body>
+</html>\
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>double-flag</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		div{
+			width: 600px;
+			height: 400px;
+			position: relative;
+			margin: 0 auto;
+			background-color: rgba(122,200,200,1);
+			box-shadow: 0px 200px 0 0 rgba(200,100,200,1) inset;
+			border-style: solid;
+			border-width: 
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		div{
+			width: 800px;
+			height: 500px;
+			background-color: red;
+			border: 1px solid red;
+			margin: 50px auto;
+			filter: blur(50px); /*模糊*/
+			filter: brightness(20%);  /*明暗转换*/
+			filter: contrast(20%);   /*对比度*/
+			filter: grayscale(20%);   /*灰色转换*/
+			filter: hue-rotate(60deg);   /*应用色旋转转换*/
+			filter: invert(50%);    /*反转颜色*/
+			filter: saturate(20%);    /* 饱和度*/
+			filter: sepia(50%);  /*//褐色转换*/
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		div{
+			width: 1000px;
+			height: 100px;
+			margin: 100px auto;
+			background-color: rgba(192,192,192,0.8);
+			/* 父元素的flex的属性 */
+			display: flex;
+			flex-direction:  ;
+			justify-content: ;
+			align-items:  ;
+			align-content: ;
+			flex-wrap:  ;
+		}
+		a{
+			order:  ;
+			align-self: ;
+			flex-shrink: ;
+			flex-grow:  ;
+			flex-basis:  ;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<a href="#"></a>
+		<a href="#"></a>
+		<a href="#"></a>
+		<a href="#"></a>
+	</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	div{
+		display: flex;
+		width: 400px;
+		height: 200px;
+		background-color: lightblue;
+	}
+	span{
+		background-color: red;
+		margin: 0 20px;
+	}
+	</style>
+</head>
+<body>
+	<div>
+		<span>第一个</span>
+		<span>第二个</span>
+		<span>第三个</span>
+	</div>
+	<span>第四个</span>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>gradient</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+		body{
+			background-color: rgba(100,200,200,1);
+			border: 1px solid red;
+		}
+			.box{
+				width: 600px;
+				height: 400px;
+				margin: auto auto;
+				border: 5px solid rgba(192,192,192,1)
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+		</div>
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1><h4>测试</h4></h1>
+	<h1>测试</h1>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>background</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		.background{
+			height: 100vh;
+			width: 100vw;
+			position: absolute;
+			background: url("../项目练习/备用图库/niya神社.png") no-repeat;
+			background-size: 100%;
+			background-clip: border-box;
+			background-position: center;
+			background-attachment: fixed;
+			z-index: -1000;
+		}
+		.first{
+			height: 100vh;
+			width: 100vh;
+			position: absolute;
+			background: url("../项目练习/备用图库/niya01.png") no-repeat;
+			background-size: 100%;
+			background-clip: border-box;
+			background-position: center;
+			background-attachment: fixed;
+>			z-index: -1000;
+		}
+	</style>
+</head>
+<body>
+	<div class="first">
+		<div class="background"></div>
+		<div>123456789</div>
+		<div>123546789</div>
+		<div>123456789</div>
+		<div>123456879</div>
+		<div>123456879</div>
+		<div>1235689</div>
+	</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>关于html</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			body{
+				height: 2000px;
+			}
+			#div1{
+				width: 500px;
+				height: 500px;
+				border: 2px solid red;
+				background-color: green;
+				position: absolute;
+				top: 50px;
+				left: 400px;
+			}
+			#div2{
+				width: 100px;
+				height: 100px;
+				background-color: red;
+				position: fixed;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div id="div2">
+			<div id="div1"></div>
+		</div>
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>if_test</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		var a=NaN;
+		if (a) {
+			alert("true");
+		}else{
+			alert("false");
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>input</title>
+</head>
+<body>
+	email<input type="email" name="email"><br>
+	url<input type="url" name="url"><br>
+	tel<input type="tel" name="tel"><br>
+	number<input type="number" name="number"><br>
+	date<input type="date" name="date"><br>
+	month<input type="month" name="month"><br>
+	week<input type="week" name="week"><br>
+	time<input type="time" name="time"><br>
+	range<input type="range" name="range"><br>
+	rearch<input type="search" name="search"><br>
+	color<input type="color" name="color"><br>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	.submit{
+		width: 180px;
+		height: 30px;
+		margin: 70px auto;
+		letter-spacing: 3px;
+		background-color: #f46208;
+		border: none;
+		color: #ffffff;
+	}
+	</style>
+</head>
+<body>
+<input type="button"  name="submit" class="submit" value="Submit Message">
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>left</title>
+</head>
+<body>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.div1{
+			width: 500px;
+			height: 200px;
+			margin: 50px auto;
+			background-color: red;
+			transform: translate(100px,100px) rotate(45deg) skew(30deg);
+		}
+		.div2{
+			width: 500px;
+			height: 200px;
+			margin: 50px auto;
+			background-color: blue;
+			transform: translate(100px,100px);
+			transform: rotate(45deg);
+			transform: skew(30deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="div1"></div>
+	<div class="div2"></div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>meter</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<input type="text" name="" list="one">
+	<datalist id="one">
+		<option>huawei</option>
+		<option>oppo</option>
+		<option>heheh</option>
+		<option>opopopopopop</option>
+		<option>ahhah</option>
+	</datalist>
+	<details>
+		<summary>hehehhehe0</summary>
+		<h1>turn on</h1>
+	</details>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>moon</title>
+</head>
+<style text="text/css">
+div{width: 300px;
+height: 300px;
+border-radius: 50%;
+background: black;
+margin: 200px auto;
+box-shadow:50px 50px 10px 10px yellow inset;
+}
+</style>
+<body>
+<div></div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>pratice</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			*{
+				padding: 0px;
+				margin: 0px;
+			}
+			body{
+
+			}
+			.main-box{					
+				width: 500px;
+				height: 500px;
+				background-color: blue;
+
+			}
+			.main-boxone{
+				width: 250px;
+				height: 250px;
+				background-color: red;
+				display: none;
+			}
+		</style>
+		<script type="text/javascript">
+
+		</script>
+	</head>
+	<body id="body">A
+		<div class="main-box"  onmouseover" main-boxone.style.display=block">
+			<div class="main-boxone" "></div>
+		</div>
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		div{
+			width: 800px;
+			height: 500px;
+			background-color: rgba(192,192,192,0.8);
+			margin: 100px auto;
+			transition: width 1s,height 1s,transform 1s,background-color 1s;
+		}		
+		div:hover{
+			width: 600px;
+			height: 600px;
+			transform: rotate(360deg);
+			background-color: rgba(120,120,120,0.8);
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			.box{
+				width: 400px;
+				height: 300px;
+				background-color: rgba(0,0,0,1);
+				box-shadow: 10px 10px 0 0 red;
+			}
+			.box:hover{
+				height: 600px;
+				width: 1000px;
+				background-color: rgba(155,155,155,1);
+				transition: background 10s,height 5s,width 7s；
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box"></div>
+	</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body{
+			position: relative;
+		}
+		.div{
+			width: 1000px;
+			height: 500px;
+			position: relative;
+			margin: 70px auto;
+			box-shadow: 0px 0px 50px 50px rgba(192,192,192,0.8);
+			overflow: hidden;
+		}
+		.div-div1{
+			width: 600px;
+			height: 400px;
+			position: relative;
+			background-color: green;
+			z-index: 100;
+		}
+		.div-div2{
+			width: 800px;
+			height: 500px;
+			position: absolute;
+			background-color: blue;
+		}
+		.div-div-div{
+			width: 500px;
+			height: 300px;
+			position: absolute;
+			background-color: red;
+			z-index: 10;
+		}
+		.test{
+			width: 1000px;
+			height: 500px;
+			position: relative;
+			margin: 100px auto;
+			box-shadow: 0px 0px 50px 50px yellow;
+		}
+		.first{
+			width: 800px;
+			height: 300px;
+			background-color: red;
+		}
+		.second{
+			width: 600px;
+			height: 400px;
+			background-color: blue;
+			position: absolute;
+		}
+	</style>
+</head>
+<body>
+	<div class="div">
+		<div class="div-div1">
+			<div class="div-div-div"></div>
+		</div>
+		<div class="div-div2"></div>
+	</div>
+	<div class="test">
+		<div class="first"></div>
+		<div class="second"></div>
+	</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>矩阵测试</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	#box1{
+		width: 300px;
+		height: 300px;
+		box-shadow: rgba(192,192,192,0);
+		margin: auto 50px; 
+		background-color: rgba(122,255,255,0);
+		transform: translate(50px,50px);
+		transform: scale(0.5,0.5);
+	}
+	#box2{
+		width: 300px;
+		height: 300px;
+		box-shadow: rgba(192,192,192,0);
+		margin: auto 50px;
+		background-color: rgba(122,255,255,0);
+		transform: matrix(0.5,0,0,0.5,50,50);
+	}
+	</style>
+</head>
+<body>
+	<div id="box1"></div>
+	<div id="box2"></div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>margin:auto</title>
+	<style type="text/css">
+		#parent{
+			border: 1px solid rgba(0,0,0,1);
+		}
+		#child{
+			width: 500px;
+			height: 100px;
+			border: 1px solid red;
+			margin: auto 50px;
+		}
+	</style>
+</head>
+<body>
+	<div id="parent">
+		<div id="child"></div>
+	</div>
+</body>
+</html>
+
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>三等分</title>
+	<style type="text/css">
+		.three{
+			width: 150px;
+			margin: 0 auto;
+			border-top:50px double #ccc;
+			border-bottom:50px solid #ccc;
+		}
+	</style>
+</head>
+<body>
+	<div class="three"></div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		body{
+			background: url("../项目练习/备用图库/niya02.png") no-repeat;
+		}
+	</style>
+</head>
+<body>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>before</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		div{
+			width: 500px;
+			height: 500px;
+			border: 1px solid;
+			float: left;
+		}
+		div::before{
+			content: "hello";
+			display: block;
+			width: 200px;
+			height: 200px;
+			border: 1px solid red;
+		}
+	</style>
+</head>
+<body>
+	<div>world</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>五星红旗</title>
+	<style type="text/css">
+		*{ margin: 0px; padding: 0px;}
+		.flag{ width: 1000px; height: 600px; background: rgba(255,0,0,1); margin: 10px auto; position: relative;}
+		.star{ width: 0px; height: 0px; border-style: solid; border-color: yellow transparent transparent transparent; position: relative;}
+		.star::before{ display: block; content: " "; width: 0px; height: 0px; border-style: solid; border-color: yellow transparent transparent transparent; position:relative;}
+		.star::after{ display: block; content: " "; width: 0px; height: 0px; border-style: solid; border-color: yellow transparent transparent transparent; position: relative;}
+		.star1{ top: 200px; left: 100px; border-width: 50px 70px; }
+		.star1::before{ border-width: 50px 70px; border-color: yellow transparent transparent transparent; right: 98.5px; bottom: 70px; transform: rotate(72deg);}
+		.star1::after{ border-width: 50px 70px; border-color: yellow transparent transparent transparent; top: 80px; left: 119.5px; transform: rotate(-72deg);}
+		.star
+	</style>
+</head>
+<body>
+	<div class="flag">
+		<div class="star star1"></div>
+		<div class="star star2"></div>
+		<div class="star star3"></div>
+		<div class="star star4"></div>
+		<div class="star star5"></div>
+	</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>颜色渐变</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		.square{
+			height: 400px;
+			width: 800px;
+			background: linear-gradient(90deg,rgba(230,238,232,0),rgba(0,255,0,0.5));
+		}
+		.box1{
+			width: 800px;
+			height: 800px;
+			margin: 100px auto;
+			background-image: linear-gradient(red 0%,blue 100%);
+		}
+	</style>
+</head>
+<body>
+	<div class="square"></div>
+	<div class="circle"></div>
+	<div class="box1"></div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		div{
+			height: 100px;
+			width: 50px;
+			border: 1px solid red;
+			border-radius: 10px;
+		}
+	</style>
+	<script type="text/javascript">
+
+	</script>
+</head>
+<body>
+<div>
+	hello,world!
+</div>
+</body>
+</html> 
+
